@@ -21,3 +21,6 @@ liberals = [True, False, False, False]
 
 # Add an element "True" at the beginning of the array
 liberals.unshift(True)
+
+# Index positions -- this code should produce "Rosa"
+puts names[1]
