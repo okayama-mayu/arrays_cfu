@@ -14,7 +14,7 @@ ages.push(40)
 float_nums = [1.45, 0.56, 1.2, 0.45]
 
 # Remove the first element 1.45 from the Array
-flat_nums.shift
+float_nums.shift
 
 # Declare an Array of Booleans
 liberals = [True, False, False, False]
@@ -24,3 +24,9 @@ liberals.unshift(True)
 
 # Index positions -- this code should produce "Rosa"
 puts names[1]
+
+# One additional Array method -- concat!
+# concat appends the elements of other arrays to the original array
+friends = ["Nat", "Tess", "Charles"]
+friends2 = ["Sarah", "Nasthia"]
+friends.concat(friends2)
